@@ -7,6 +7,10 @@ public class BinaryTreeNode {
     BinaryTreeNode left;
     BinaryTreeNode right;
 
+    public int getValue() {
+        return value;
+    }
+
     public BinaryTreeNode(int value) {
         this.value = value;
     }
@@ -47,4 +51,29 @@ public class BinaryTreeNode {
             queue.poll().traverseInBreadth(queue);
     }
 
+    public boolean searchFor(BinaryTreeNode node) {
+        if (value == node.getValue())
+            return true;
+        else if (left  == null && right == null)
+            return false;
+        else if (left == null)
+            return right.searchFor(node);
+        else if(right == null)
+            return left.searchFor(node);
+        else
+            return left.searchFor(node) || right.searchFor(node);
+
+
+
+    }
+
+    public void insertIn(BinaryTreeNode newNode)
+    {
+        if (left == null) {
+            left = newNode;
+        }
+        else {
+            left.insertIn(newNode);
+        }
+    }
 }

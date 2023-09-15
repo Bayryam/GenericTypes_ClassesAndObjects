@@ -10,14 +10,16 @@ public class Main {
         BinaryTreeNode a = new BinaryTreeNode(4);
         BinaryTreeNode b = new BinaryTreeNode(5);
         BinaryTreeNode c = new BinaryTreeNode(6);
+        BinaryTreeNode d = new BinaryTreeNode(7);
         BinaryTree tree = new BinaryTree(first);
         second.addLeft(a);
         second.addRight(b);
         third.addLeft(c);
         first.addLeft(second);
         first.addRight(third);
-        tree.firstInDepthTraverse();
-        tree.firstInBreadthTraverse();
+        //tree.firstInDepthTraverse();
+        //tree.firstInBreadthTraverse();
+        System.out.println(tree.insert(d));
 
 
         //NodeInterface first = new Node<>("f");

@@ -11,7 +11,7 @@ public class BinaryTree {
     }
 
     public void firstInDepthTraverse() {
-         if (root != null)
+        if (root != null)
             root.traverseInDepth();
     }
 
@@ -23,6 +23,26 @@ public class BinaryTree {
         if (!queue.isEmpty())
             queue.poll().traverseInBreadth(queue);
 
+    }
+
+    public boolean exists(BinaryTreeNode node) {
+        if (root != null)
+            return root.searchFor(node);
+        else
+            return false;
+
+    }
+
+    public boolean insert(BinaryTreeNode newNode) {
+        if (exists(newNode))
+            return false;
+
+        if (root == null)
+            root = newNode;
+        else
+            root.insertIn(newNode);
+
+        return true;
 
     }
 
