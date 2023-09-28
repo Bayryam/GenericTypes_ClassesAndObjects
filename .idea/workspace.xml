@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="456364e2-9167-4653-bd73-5f6a82b7afcb" name="Changes" comment="Summator added">
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Battlefield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Rogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Spellcaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/UnabilityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/weapons/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/weapons/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/superheroes/weapons/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +74,20 @@
       <recent name="NumberSuming" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GenericTypes_ClassesAndObjeccts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -104,5 +130,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Summator added" />
     <option name="LAST_COMMIT_MESSAGE" value="Summator added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
